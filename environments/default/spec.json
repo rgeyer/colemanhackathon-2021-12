@@ -1,0 +1,13 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "name": "environments/default"
+  },
+  "spec": {
+    "apiServer": "https://a6c5059b-30f9-4c0d-86c4-b8863ad41acb.k8s.ondigitalocean.com",
+    "namespace": "crollins",
+    "resourceDefaults": {},
+    "expectVersions": {}
+  }
+}
